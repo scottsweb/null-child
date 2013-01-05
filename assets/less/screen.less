@@ -1,0 +1,187 @@
+/* 
+
+screen.less
+contents:
+
+	1. Import
+	2. Grid Setup
+	3. Layout
+	4. Media Queries
+	5. Device Specific Media Queries
+
+*/
+
+/* 1. Import
+--------------------------------------------------------------------------------------- */
+
+// copy these over from the parent theme to begin your design
+@import "reset.less";
+@import "variables.less";
+@import "mixins.less";
+@import "typography.less";
+@import "forms.less";
+@import "tables.less";
+@import "classes.less";
+@import "wordpress.less";
+@import "gravityforms.less";
+@import "grid.less";
+
+/* 2. Grid Setup
+--------------------------------------------------------------------------------------- */
+
+// specify the number of columns and set column and gutter widths
+
+@columns: 12;
+@column-width: 60;
+@gutter-width: 20;
+
+// fluid grid
+
+@total-width: 100%;
+	
+/* 3. Layout
+--------------------------------------------------------------------------------------- */
+	
+#wrapper
+	{
+	padding: @baseline;
+	margin: @baseline auto;
+	max-width: 960px;
+	.clearfix;
+	}
+
+@media screen and (max-width: 600px) {
+	#content,
+	.sidebar {
+		.column(12);
+	}
+}
+
+
+
+/*::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment {
+    display: block;
+    height: 10px;
+}
+
+::-webkit-scrollbar-button:vertical:increment {
+    background-color: #fff;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: #eee;
+    -webkit-border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+    height: 50px;
+    background-color: #ccc;
+    -webkit-border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    width: 50px;
+    background-color: #ccc;
+    -webkit-border-radius: 3px;
+}*/
+
+/* 4. Media Queries
+--------------------------------------------------------------------------------------- */
+
+// larger mobile devices like galaxy note
+@media only screen and (min-width: 481px) {
+	
+	// styles in 481up.less 
+	//@import "481up.less";
+
+}
+
+// tablets and smaller laptops
+@media only screen and (min-width: 768px) {
+	
+	// styles in 768up.less 
+	//@import "768up.less";
+
+} 
+
+// desktop, normal laptops
+@media only screen and (min-width: 1030px) {
+	
+	// styles in 1030up.less 
+	//@import "1030up.less";
+
+}
+
+// larger viewing sizes, desktops, full screen viewers?
+@media only screen and (min-width: 1240px) {
+	
+	// styles in 1240up.less 
+	//@import "1240up.less";
+
+}
+
+/* 5. Device Specific Media Queries
+--------------------------------------------------------------------------------------- */
+
+// retina displays
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), 
+only screen and (min--moz-device-pixel-ratio: 1.5), 
+only screen and (min-device-pixel-ratio: 1.5) 
+    {
+	@import "2x.less"; 
+	} 
+
+// Smartphones (portrait and landscape)
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) 
+	{
+	/* prevent iOS, WinMobile from adjusting font size */
+  	html 
+  		{ 
+  		-webkit-text-size-adjust:none;
+  		-ms-text-size-adjust:none; 
+  		}
+  		
+	}
+
+// Smartphones (landscape) 
+@media only screen 
+and (min-width : 321px) 
+	{
+	}
+
+// Smartphones (portrait)
+@media only screen 
+and (max-width : 320px) 
+	{
+	}
+
+// iPads (portrait and landscape)
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+	{
+	}
+
+// iPads (landscape)
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) 
+	{
+	}
+
+// iPads (portrait)
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) 
+	{
+	}
