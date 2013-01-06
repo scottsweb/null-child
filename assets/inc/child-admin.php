@@ -10,7 +10,7 @@ add_filter('null_options', 'remove_options');
 function remove_options($options) {
 	
 	// general
-	//unset($options['show_tagline']);
+	//unset($options['gat_external_download']);
 	//unset($options['breadcrumbs']);
 	//unset($options['footer_sidebar']);
 	//unset($options['wordpress_credit']);
@@ -24,7 +24,7 @@ function remove_options($options) {
 	// advanced
 	//unset($options['custom_header']);
 	//unset($options['custom_background']);
-	
+
 	return $options;
 	
 }

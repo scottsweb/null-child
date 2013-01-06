@@ -13,11 +13,11 @@
 * Text Domain: null-child
 * Template: null
 
-## About
+## about
 
 null is a tinkerers framework with ambitions to be the smartest, fastest and simplest way to build WordPress themes. This is a starting point for creating child themes for [null](https://github.com/scottsweb/null).
 
-## Installation
+## installation
 
 To install this theme:
 
@@ -28,15 +28,15 @@ To install this theme:
 1. After activation you will be given the option to setup WordPress with a number of default settings. This is an optional step and should **not** be run if you have already setup WordPress how you like it.
 1. Visit "Appearance -> Theme Options" and configure the theme options to your liking. 
 
-## Frequently Asked Questions
+## frequently asked questions
 
 [Please see the parent theme project](https://github.com/scottsweb/null).
 
-### Contributing 
+### contributing 
 
 Please submit all bugs, questions and suggestions to the [GitHub Issues](https://github.com/scottsweb/null/issues) queue.
 
-## Changelog
+## changelog
 
 #### 0.9
-* Upload to Github
+* Uploaded to Github
