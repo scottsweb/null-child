@@ -5,7 +5,7 @@
 * Project Status: [Inactive](https://github.com/scottsweb/null/)
 * Contributors: [@scottsweb](http://twitter.com/scottsweb)
 * Theme Name: null child
-* Theme URI: [http://null.scott.ee](http://null.scott.ee)
+* Theme URI: [http://scott.ee](http://scott.ee)
 * Description: a starting point for null child themes
 * Author: [Scott Evans](http://scott.ee)
 * Author URI: [http://scott.ee](http://scott.ee)
@@ -37,7 +37,7 @@ To install this theme:
 
 Please submit all bugs, questions and suggestions to the [GitHub Issues](https://github.com/scottsweb/null/issues) queue.
 
-## changelog
+## Changelog
 
 #### 0.9
 * Uploaded to Github
