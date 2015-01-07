@@ -2,7 +2,7 @@
 
 ## null child
 
-* Project Status: ✖ [Inactive](https://github.com/scottsweb/null/)
+* Status: ✖ [Inactive](https://github.com/scottsweb/null/)
 * Contributors: [@scottsweb](http://twitter.com/scottsweb)
 * Theme Name: null child
 * Theme URI: [http://scott.ee](http://scott.ee)
