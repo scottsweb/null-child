@@ -1,8 +1,8 @@
-![null child logo](https://dl.dropbox.com/u/3019972/null-child.png)
+![null child logo](https://raw.githubusercontent.com/scottsweb/null-child/master/screenshot.png)
 
 ## null child
 
-* Project Status: [Inactive](https://github.com/scottsweb/null/)
+* Project Status: ✖ [Inactive](https://github.com/scottsweb/null/)
 * Contributors: [@scottsweb](http://twitter.com/scottsweb)
 * Theme Name: null child
 * Theme URI: [http://scott.ee](http://scott.ee)
@@ -33,7 +33,7 @@ To install this theme:
 
 [Please see the parent theme project](https://github.com/scottsweb/null).
 
-### Contributing 
+## Contributing 
 
 Please submit all bugs, questions and suggestions to the [GitHub Issues](https://github.com/scottsweb/null/issues) queue.
 
