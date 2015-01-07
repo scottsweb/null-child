@@ -35,7 +35,7 @@ To install this theme:
 
 ## Contributing 
 
-Please submit all bugs, questions and suggestions to the [GitHub Issues](https://github.com/scottsweb/null/issues) queue.
+Please submit all bugs, questions and suggestions to the [GitHub Issues](https://github.com/scottsweb/null/issues) queue for the parent theme.
 
 ## Changelog
 
