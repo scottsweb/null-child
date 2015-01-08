@@ -1,6 +1,6 @@
 ![null child logo](https://raw.githubusercontent.com/scottsweb/null-child/master/screenshot.png)
 
-## null child
+# null child
 
 * Status: ✖ [Inactive](https://github.com/scottsweb/null/)
 * Contributors: [@scottsweb](http://twitter.com/scottsweb)
