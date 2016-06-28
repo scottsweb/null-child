@@ -1,4 +1,4 @@
-![null child logo](https://raw.githubusercontent.com/scottsweb/null-child/master/screenshot.png)
+![null child logo](http://cloud.scott.ee/images/null-child.png)
 
 # null child
 
